@@ -1,4 +1,5 @@
-How to run
+How to run:
+
 To run both of the programs, you need to have them in the same python project as the ‘sshtunnel’ file (from the template on Studium). The project needs to have the following packages intalled: pymysql, paramiko (run pip install pymysql paramiko in the terminal). Download the respective python file (show_department, product_discount) and put them into the project; let the scripts have the same name as the functions (you shouldn’t have to change any names after downloading).
 
 To run show_department, open the terminal (ALT+F12 on windows in pycharm), enter ‘python show_department.py’ and then enter your Studium username and password in the (2) subsequent prompts. You will then be able to enter a department id of your choosing, for example 210000 (a leaf with products), or 100000 (non-leaf): note that the number must be entered without citation marks. 
